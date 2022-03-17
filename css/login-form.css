@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    margin: 50px auto;
+    border: solid 2px rgba(0, 0, 0, 0.596);
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.596);
+}
+
+.logo {
+    width: 90%;
+    height: 80px;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.596);
+}
+
+.form {
+    width: 200px;
+    margin: 0 auto;
+}
+
+div input {
+    margin: 20px auto 0 auto;
+    width: 200px;
+    height: 30px;
+    border: solid 1px rgba(0, 0, 0, 0.171);
+    border-radius: 15px;
+
+}
+
+.reg-log {
+    width: 160px;
+    height: 24px;
+    margin: 15px auto;
+    border: solid 1px rgba(0, 0, 0, 0.171);
+    background-color: rgb(70, 119, 255);
+    border-radius: 12px;
+}
+
+.social {
+    width: 90%;
+    height: 50px;
+    border-top: solid 2px rgba(0, 0, 0, 0.596);
+}
