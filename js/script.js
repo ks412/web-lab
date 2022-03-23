@@ -16,3 +16,10 @@ const InpitButtRegister = document.getElementById('register');
 ElemensDispleyNone(inputMail)
 ElemensDispleyNone(InpitButtRegister)
 
+function massegePass() {
+    document.createElement('div');
+    div.className = 'massegePass';
+    
+}
+
+
