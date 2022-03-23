@@ -1,5 +1,5 @@
 
-body {
+*{
     font: 'Roboto';
 }
 .wrapper {
@@ -60,6 +60,10 @@ input:focus{
     }
 
 
+input:invalid {
+    background-color: #ffdddd;
+    }
+
 .reg-log {
     width: 160px;
     height: 24px;
@@ -83,3 +87,4 @@ input:focus{
     height: 50px;
     border-top: solid 2px rgba(0, 0, 0, 0.171);
 }
+
